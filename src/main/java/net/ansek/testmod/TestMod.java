@@ -1,5 +1,6 @@
 package net.ansek.testmod;
 
+import net.ansek.testmod.block.ModBlocks;
 import net.ansek.testmod.item.ModItemGroups;
 import net.ansek.testmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -15,7 +16,9 @@ public class TestMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }

@@ -1,6 +1,9 @@
 {
-  "item.test_mod.steel_ingot": "Steel ingot",
-  "item.test_mod.steel_bar": "Steel bar",
+  "item.test_mod.steel_ingot": "Steel Ingot",
+  "item.test_mod.steel_bar": "Steel Bar",
+
+  "block.test_mod.steel_block": "Steel Block",
+  "block.test_mod.interior_wall": "Interior Wall",
 
   "itemgroup.test_mod": "Test mod"
 }

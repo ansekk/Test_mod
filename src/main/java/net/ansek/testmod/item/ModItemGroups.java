@@ -1,6 +1,7 @@
 package net.ansek.testmod.item;
 
 import net.ansek.testmod.TestMod;
+import net.ansek.testmod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -14,6 +15,9 @@ public class ModItemGroups {
             new Identifier(TestMod.MOD_ID, "test_mod"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.test_mod"))
                     .icon(() -> new ItemStack(ModItems.STEEL_INGOT)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.STEEL_BLOCK);
+                        entries.add(ModBlocks.INTERIOR_WALL);
+
                         entries.add(ModItems.STEEL_INGOT);
                         entries.add(ModItems.STEEL_BAR);
                     }).build());
