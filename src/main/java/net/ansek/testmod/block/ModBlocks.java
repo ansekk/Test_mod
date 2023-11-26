@@ -1,6 +1,8 @@
 package net.ansek.testmod.block;
 
 import net.ansek.testmod.TestMod;
+import net.ansek.testmod.block.custom.CellContollerBlock;
+import net.ansek.testmod.block.custom.HeadComputerBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -16,6 +18,12 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block INTERIOR_WALL = registerBlock("interior_wall",
             new Block(FabricBlockSettings.copyOf(Blocks.GRAY_CONCRETE)));
+
+    public static final Block HEAD_COMPUTER = registerBlock("head_computer",
+            new HeadComputerBlock(FabricBlockSettings.copyOf(Blocks.GRAY_CONCRETE)));
+
+    public static final Block CELL_CONTROLLER = registerBlock("cell_controller",
+            new CellContollerBlock(FabricBlockSettings.copyOf(Blocks.GRAY_CONCRETE)));
 
 
     private static Block registerBlock(String name, Block block) {

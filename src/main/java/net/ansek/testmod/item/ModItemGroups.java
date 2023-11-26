@@ -17,8 +17,11 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.STEEL_INGOT)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.STEEL_BLOCK);
                         entries.add(ModBlocks.INTERIOR_WALL);
+                        entries.add(ModBlocks.CELL_CONTROLLER);
+                        entries.add(ModBlocks.HEAD_COMPUTER);
 
                         entries.add(ModItems.STEEL_INGOT);
+                        entries.add(ModItems.STEEL_NUGGET);
                         entries.add(ModItems.STEEL_BAR);
                     }).build());
 

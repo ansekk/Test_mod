@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "test_mod:block/head_computer",
+    "side": "test_mod:block/interior_wall",
+    "top": "test_mod:block/interior_wall"
+  }
+}

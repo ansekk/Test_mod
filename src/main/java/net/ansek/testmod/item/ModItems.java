@@ -15,9 +15,12 @@ public class ModItems {
 
     public static final Item STEEL_INGOT = registerItem("steel_ingot", new Item(new FabricItemSettings()));
     public static final Item STEEL_BAR = registerItem("steel_bar", new Item(new FabricItemSettings()));
+    public static final Item STEEL_NUGGET = registerItem("steel_nugget", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(STEEL_INGOT);
+        entries.add(STEEL_NUGGET);
+
         entries.add(STEEL_BAR);
     }
 

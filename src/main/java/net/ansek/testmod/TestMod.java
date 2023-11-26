@@ -1,8 +1,10 @@
 package net.ansek.testmod;
 
 import net.ansek.testmod.block.ModBlocks;
+import net.ansek.testmod.block.entity.ModBlockEntities;
 import net.ansek.testmod.item.ModItemGroups;
 import net.ansek.testmod.item.ModItems;
+import net.ansek.testmod.screen.ModScreenHandlers;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -20,5 +22,8 @@ public class TestMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
+		ModBlockEntities.registerBlockEntities();
+
+		ModScreenHandlers.registerScreenHandlers();
 	}
 }

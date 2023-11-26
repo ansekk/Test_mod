@@ -1,9 +1,12 @@
 {
   "item.test_mod.steel_ingot": "Steel Ingot",
+  "item.test_mod.steel_nugget": "Steel Nugget",
   "item.test_mod.steel_bar": "Steel Bar",
 
   "block.test_mod.steel_block": "Steel Block",
   "block.test_mod.interior_wall": "Interior Wall",
+  "block.test_mod.cell_controller": "Cell Controller",
+  "block.test_mod.head_computer": "Head Computer",
 
   "itemgroup.test_mod": "Test mod"
 }
